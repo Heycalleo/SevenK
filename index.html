@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelas Laut</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div>
+          <h1>Class Seven K</h1>
+          <p>Kelas 7K — Kelas paling kalcer di spentil</p>
+        </div>
+      </div>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <div class="nav-pill">
+        <nav class="site-nav" id="siteNav">
+          <a href="#home">Beranda</a>
+          <a href="structure.html">Struktur</a>
+          <a href="schedule.html">Jadwal</a>
+          <a href="#gallery">Galeri</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">Class Seven K</p>
+          <h2>WELCOME TO KELAS PALING KALCER
+
+</h2>
+          <p>Together we create memories. Tempat menyimpan semua jejak dan kenangan terbaik kelas 7K.</p>
+          <div class="hero-actions">
+            <div class="hero-buttons">
+              <a href="structure.html" class="button">Lihat Struktur</a>
+              <a href="#gallery" class="button secondary">Buka Galeri</a>
+            </div>
+            <aside class="quick-info-card">
+              <h3>Apa saja yang ada di website ini?</h3>
+              <ul>
+                <li>Struktur kelas lengkap untuk 7K.</li>
+                <li>Jadwal pelajaran.</li>
+                <li>Galeri foto dan kenang-kenangan.</li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+
+        
+      </div>
+    </section>
+
+    <!-- Struktur kelas dipindah ke halaman terpisah: structure.html -->
+
+    
+
+    <section class="section section-wave" id="gallery">
+      <div class="container">
+        <h3>Galeri</h3>
+        <p class="section-intro">Galeri Kenangan
+
+Waktu boleh berlalu, tapi kenangan akan tetap ada. Di sini kami menyimpan setiap sudut cerita, tawa, dan perjuangan bersama sebagai satu keluarga.</p>
+        <div id="galleryGrid" class="gallery-grid" aria-live="polite">
+          <!-- gallery will be rendered here from data/gallery.json -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Made by Love</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
